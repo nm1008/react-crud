@@ -5,6 +5,8 @@ function App() {
   const [newTask, setNewTask] = useState("");
   const [todoList, setTodoList] = useState([]);
 
+
+  //this function was set to onChange on the input field and logs the event and set the value of the event storing to the newTask state
   const handleAddTask = (e) => {
     //  console.log(e.target.value)
     setNewTask(e.target.value);
